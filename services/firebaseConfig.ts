@@ -4,7 +4,7 @@ import { getAuth } from 'firebase/auth';
 import { getFirestore } from 'firebase/firestore';
 
 const firebaseConfig = {
-  apiKey: 'AIzaSyByW6m35fxkAGnlaEPHpSwObQBuKLIEjH4',
+  apiKey: process.env.FIREBASE_API_KEY,
   authDomain: 'recipe-app-4dc2e.firebaseapp.com',
   projectId: 'recipe-app-4dc2e',
   storageBucket: 'recipe-app-4dc2e.firebasestorage.app',
